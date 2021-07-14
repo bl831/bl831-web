@@ -5,7 +5,9 @@ group: data_collection
 ---
 
 # Data Collection
+
 ---
+
 Please refer to the flowchart below to give you a rough idea of which data colletion protocol to use.
 
 <img src="/static/pictures/flowchart_data_collection.svg" alt="flowchart" width="1000" height="500" class="responsive" />

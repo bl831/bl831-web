@@ -5,7 +5,9 @@ group: data_collection
 ---
 
 # ALS 8.3.1 Cheat Sheet
+
 ---
+
 **NOTE: make sure that all data is being written within the “/data” directory and that all data processing is being performed in the “/home” directory.**
 
 Have one terminal open for data and one open for home.  

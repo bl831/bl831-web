@@ -5,7 +5,9 @@ group: data_processing
 ---
 
 # Processing data with XDS at 8.3.1
+
 ---
+
 <div><i><font face="verdana, sans-serif">From Holton on Dec. 14, 2016, re: processing fresh data while at ALS 8.3.1:</font></i></div>
 <div><font face="verdana, sans-serif"><br>
 </font></div>

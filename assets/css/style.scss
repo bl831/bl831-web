@@ -8,10 +8,19 @@ h3 {
 }
 
 body {
-    min-height: 2000px;
-    padding-top: 70px;
+     padding-top: 70px;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
   }
 
 .navbar ul li {
     list-style-image: none;
+}
+
+.navbar-dark .navbar-brand {
+    color: rgb(140, 194, 207);
 }

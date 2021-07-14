@@ -1,11 +1,13 @@
 ---
 title: ALS 8.3.1 Status
-layout: status
+layout: default
 group: beamline
 ---
 
 # Beamline Status
+
 ---
+
 <div class="embed-responsive embed-responsive-4by3">
 		<iframe class="embed-responsive-item" src="http://als.lbl.gov/beam-status/" scrolling="yes"></iframe>
 </div>

@@ -4,32 +4,36 @@ layout: default
 group: faq
 ---
 
-# The FAQ
+# FAQ
+
 ---
-### General guidelines:
+## General guidelines:
+
 * Do whatever makes sense to you
 * To minimize training, we are trying to organize the beamline so that following your intuition will have the desired outcome.  If it doesn't I'd like to hear about it.
 * Do not delete your data. That is my job. We do systemwide archives on Mondays so that you will always have a copy of your data at the beamline. We also do statistics on data collection to try and improve the user-friendliness of the beamline.
 * Do not compress your data. Compressed files still take up space and are impossible to process. They are not good for anything. If you want to compress files for transfer, have a look at moving data around for better ways to do this.
-* Do your processing in /home, not /data. Processing onto the data disk slows down data collection and takes up a lot of space. The /data disk is optimized for large files. Lots of small files can fill up /data at only ~75% of its full capacity!
+* Do your processing in `/home`, not `/data`. Processing onto the data disk slows down data collection and takes up a lot of space. The `/data` disk is optimized for large files. Lots of small files can fill up `/data` at only ~75% of its full capacity!
 
 ## How do I acknowledge beamline 8.3.1 in my paper?
 
 <blockquote class="blockquote"> <p class="small font-weight-light"> Beamline 8.3.1 at the Advanced Light Source is operated by the University of California Office of the President, Multicampus Research Programs and Initiatives grant MR-15-328599 the National Institutes of Health (R01 GM124149 and P30 GM124169),Plexxikon Inc. and the Integrated Diffraction Analysis Technologies program of the US Department of Energy Office of Biological and Environmental Research. The Advanced Light Source (Berkeley, CA) is a national user facility operated by Lawrence Berkeley National Laboratory on behalf of the US Department of Energy under contract number DE-AC02-05CH11231, Office of Basic Energy Sciences. </p> </blockquote>
 
 ## Where are the BL8.3.1 Status and Schedule pages?
+
 Right here: [BL8.3.1 Status Page](http://bl831.als.lbl.gov/~mcfuser/) and here: [BL8.3.1 Schedule](http://bl831.als.lbl.gov/~mcfuser/schedule/schedule.php)
 
 ## What is the meaning of life?
+
 42
 
-## Where's BLU-ICE?
+## How do I start Blu-Ice?
 
-type "go" ... you MUST then find a little pop-up window and select a "Nickname" to get the BLU-ICE GUI running.
+type `go` 
 
 ## Where's the ADXV image display?
 
-click on "Open With" at bottom right of the BLU-ICE image display on the HUTCH Tab, and select "ADXV"
+It should appear in the upper right of your Linux Desktop when you launch Blu-Ice with teh `go` command. However, if it is missing oryou want a second instance you can click on "Open With" at bottom right of the Blu-Ice image display on the HUTCH Tab, and select "ADXV"
 
 ## I can't collect data, what do I do?
 
@@ -37,7 +41,7 @@ If the ALS up and running, and the beamline is not working, call "x2249" from th
 
 ## How do I get a strategy?
 
-type "index" and the Elves will guide you through it.
+type `index` and the Elves will guide you through it.
 
 ## How do I process my data set?
 

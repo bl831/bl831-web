@@ -6,6 +6,8 @@ group: beamline
 
 # Getting Beamtime
 
+---
+
 ## Do you want to collect in person?
 
 ### If you are at UCSF
