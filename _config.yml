@@ -1,14 +1,9 @@
 name: "ALS 8.3.1"
-description: "This is the website for ALS beamline 8.3.1 - the TomAlberTron."
 
 url: "http://localhost"
 
-# paginate: 5
-# gems: [jekyll-paginate]
-# paginate_path: "news/page:num"
-
 permalink: pretty
 theme: jekyll-theme-hacker
-title: BL8.3.1 Web Stuff
-description: we do X-ray crystallography
+title: "BL8.3.1 Web Stuff"
+description: "we do X-ray crystallography"
 show_downloads: false
