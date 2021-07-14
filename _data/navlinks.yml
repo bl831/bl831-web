@@ -1,0 +1,55 @@
+- name: About
+  link: '/'
+  group: home
+  dropdown: True
+  subset:
+    facility_overview: 
+      name: Facility Overview
+      link: "/about/facility_overview"
+    people:
+      name: People
+      link: "/about/people"
+
+- name: Beamline
+  link: "/beamline"
+  group: beamline
+  dropdown: True
+  subset: 
+    schedule:
+      name: Schedule
+      link: "/beamline/schedule"
+    status:
+      name: Status
+      link: "/beamline/status"
+
+- name: Procedures
+  link: "/procedures"
+  group: procedures
+  dropdown: True
+  subset: 
+    data_collection:
+      name: Data Collection
+      link: "/procedures/data_collection/data-collection"
+    data_processing:
+      name: Data Processing
+      link: "/procedures/data_processing/xds"
+    holton_notes:
+      name: Notes from James Holton
+      link: "https://bl831.als.lbl.gov/~jamesh/beamline/"
+      target: _blank
+    meigs_notes:
+      name: Notes from George Meigs
+      link: "https://bl831.als.lbl.gov/~gmeigs/notes.html"
+      target: _blank
+
+- name: Software
+  link: "/software"
+  group: software
+
+- name: FAQ
+  link: "/faq"
+  group: faq
+
+- name: Contact
+  link: "/contact"
+  group: contact
