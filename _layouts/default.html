@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- GitHub Pages CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+
+      <!-- Static navbar -->
+      <div class="navbar navbar-expand-lg fixed-top navbar-dark" role="navigation">
+          <a class="navbar-brand" href="{{site.url}}">{{site.name}}</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarCollapse" aria-controls="NavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div  class="collapse navbar-collapse" id="NavbarCollapse">
+            <ul class="navbar-nav mr-auto mt-1 mt-lg-0">
+              {% for link in site.data.navlinks %}
+                {% if link.dropdown %}
+                  <li class="nav-item dropdown" id="navbar_{{link.name}}">
+                    <a class="nav-link dropdown-toggle" href="{{site.url}}{{link.link}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{link.name}}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      {% for item in link.subset %}
+                        <a class="dropdown-item" href="{{item[1].link}}" target="{{item[1].target}}">
+                          {{item[1].name}}
+                        </a>
+                      {% endfor %} 
+                    </div>
+                  </li>
+                {% else %}
+                  <li class="nav-item" id="navbar_{{link.name}}"><a class="nav-link" target="{{link.target}}" href="{{site.url}}{{link.link}}" alt="{{link.name}}"> {{link.name}}</a></li>
+                {% endif %}
+
+                {% if page.group == link.group %}
+                  <script type="text/javascript"> 
+                    $("#navbar_{{link.name}}").addClass('active');
+                  </script>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+      </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        {{ content }}
+      </section>
+    </div>
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+
+    <!-- Boostrap custom JS stuff -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

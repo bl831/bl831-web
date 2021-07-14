@@ -20,8 +20,9 @@ behalf of the US Department of Energy under contract number DE-AC02-05CH11231, O
 Energy Sciences.
 
 Beamline 8.3.1 is directed by James Holton. Additional hardware and software support are provided by
-George Meigs and Scott Classen. The Participating Research Team includes UCSF, UC Berkeley,
-The University of California System, and Plexxikon Inc, and is headed by James Fraser and Robert Stroud.
+George Meigs and Scott Classen. Scheduling and access is handled by Kathryn Burnett.
+The Participating Research Team includes UCSF, UC Berkeley, The University of California System,
+and Plexxikon Inc, and is headed by James Fraser and Robert Stroud. 
 
 <!-- # About the TomAlberTron -->
 

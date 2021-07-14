@@ -9,3 +9,6 @@ url: "http://localhost"
 
 permalink: pretty
 theme: jekyll-theme-hacker
+title: BL8.3.1 Web Stuff
+description: we do X-ray crystallography
+show_downloads: false
