@@ -17,23 +17,33 @@ group: faq
 
 ## How do I acknowledge beamline 8.3.1 in my paper?
 
-<blockquote class="blockquote"> <p class="small font-weight-light"> Beamline 8.3.1 at the Advanced Light Source is operated by the University of California Office of the President, Multicampus Research Programs and Initiatives grant MR-15-328599 the National Institutes of Health (R01 GM124149 and P30 GM124169),Plexxikon Inc. and the Integrated Diffraction Analysis Technologies program of the US Department of Energy Office of Biological and Environmental Research. The Advanced Light Source (Berkeley, CA) is a national user facility operated by Lawrence Berkeley National Laboratory on behalf of the US Department of Energy under contract number DE-AC02-05CH11231, Office of Basic Energy Sciences. </p> </blockquote>
+> Beamline 8.3.1 at the Advanced Light Source is operated by the University of California Office of the President, Multicampus Research Programs and Initiatives grant MR-15-328599 the National Institutes of Health (R01 GM124149 and P30 GM124169),Plexxikon Inc. and the Integrated Diffraction Analysis Technologies program of the US Department of Energy Office of Biological and Environmental Research. The Advanced Light Source (Berkeley, CA) is a national user facility operated by Lawrence Berkeley National Laboratory on behalf of the US Department of Energy under contract number DE-AC02-05CH11231, Office of Basic Energy Sciences. </p> </blockquote>
 
 ## Where are the BL8.3.1 Status and Schedule pages?
 
-Right here: [BL8.3.1 Status Page](http://bl831.als.lbl.gov/~mcfuser/) and here: [BL8.3.1 Schedule](http://bl831.als.lbl.gov/~mcfuser/schedule/schedule.php)
+Right here: [BL8.3.1 Status Page](/beamline/status/) and here: [BL8.3.1 Schedule](/beamline/schedule/)
 
 ## What is the meaning of life?
 
-42
+[42](https://en.wikipedia.org/wiki/42_(number)#The_Hitchhiker's_Guide_to_the_Galaxy)
 
 ## How do I start Blu-Ice?
 
-type `go` 
+type `go` in a terminal window.
+
+## What is this Blu-Ice thing anyways?
+
+Blu-Ice is software you will use to control the beamline and collect your data. The version used at
+8.3.1 is very similar to the version originally developed and deployed at by
+[SMB](https://www-ssrl.slac.stanford.edu/smb/) at SSRL, and reading the
+[Blu-Ice manual](https://smb.slac.stanford.edu/facilities/software/blu-ice/) can be quite
+instructive ([RTFM](https://en.wikipedia.org/wiki/RTFM))
 
 ## Where's the ADXV image display?
 
-It should appear in the upper right of your Linux Desktop when you launch Blu-Ice with teh `go` command. However, if it is missing oryou want a second instance you can click on "Open With" at bottom right of the Blu-Ice image display on the HUTCH Tab, and select "ADXV"
+It should appear in the upper right of your Linux Desktop when you launch Blu-Ice with the `go`
+command. However, if it is missing or you want a second instance you can click on `Open With` at
+bottom right of the Blu-Ice image display on the HUTCH Tab, and select `ADXV`.
 
 ## I can't collect data, what do I do?
 
@@ -41,7 +51,7 @@ If the ALS up and running, and the beamline is not working, call "x2249" from th
 
 ## How do I get a strategy?
 
-type `index` and the Elves will guide you through it.
+Type `index` and the Elves will guide you through it.
 
 ## How do I process my data set?
 
@@ -70,7 +80,10 @@ Do not interfere with other people's beam time
 If you are doing processing after your beam time, try to remember to restrict your CPU activity to "crush17." Do NOT restore any files to /data unless you know how to preserve their date stamps. Image files with new dates will be mistaken for newly-collected data and mess up the automatic archiver.
 
 ## Do you have HKL2000?
-We don't have HKL2000 at 8.3.1. XDS and DIALS get great results with Pilatus data.  I'm working with ZO and others to test HKL2000 on our data stream, but I think in the immediate future you'll probably be happiest with XDS processing.
+
+We don't have HKL2000 at 8.3.1. [XDS](https://xds.mr.mpg.de) and [DIALS](https://dials.github.io)
+get great results with Pilatus data. I'm working with ZO and others to test HKL2000 on our data
+stream, but I think in the immediate future you'll probably be happiest with XDS processing.
 
 ## Any opinions about what to look for when evaluating a beamline?
 
