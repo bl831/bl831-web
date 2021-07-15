@@ -17,7 +17,7 @@ group: beamline
 ## Beamline Status
 
 <div class="embed-responsive" id="mcfuser-status">
-<iframe class="embed-responsive-item" src="http://bl831.als.lbl.gov/~mcfuser/" loading="lazy" marginwidth="0" marginheight="0" width="900px" height="3000px" style=""></iframe>
+<iframe class="embed-responsive-item" src="https://bl831.als.lbl.gov/~mcfuser/" loading="lazy" marginwidth="0" marginheight="0" width="900px" height="3000px" style=""></iframe>
 </div>
 
 Beamline Status is currently being enbedded as an `<iframe>` from [here](http://bl831.als.lbl.gov/~mcfuser/).
