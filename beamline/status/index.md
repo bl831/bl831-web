@@ -4,17 +4,20 @@ layout: default
 group: beamline
 ---
 
-# Beamline Status
+# Status
 
 ---
 
-<div class="embed-responsive embed-responsive-4by3">
-		<iframe class="embed-responsive-item" src="http://als.lbl.gov/beam-status/" scrolling="yes"></iframe>
+## ALS Status
+
+<div class="embed-responsive">
+<iframe class="embed-responsive-item" loading="lazy" src="https://controls.als.lbl.gov/als-beamstatus/site/alsstatus_alsweb" width="900px" height="620px" marginwidth="0" marginheight="0" data-mce-fragment="1" style="max-width: 100%; max-height: 682px;"></iframe>
 </div>
 
-<div class="embed-responsive embed-responsive-4by3">
-		<iframe class="embed-responsive-item" src="http://bl831.als.lbl.gov/~mcfuser/" scrolling="yes"></iframe>
+## Beamline Status
+
+<div class="embed-responsive" id="mcfuser-status">
+<iframe class="embed-responsive-item" src="http://bl831.als.lbl.gov/~mcfuser/" loading="lazy" marginwidth="0" marginheight="0" width="900px" height="3000px" style=""></iframe>
 </div>
 
-
-Status is currently embedded from [here](http://bl831.als.lbl.gov/~mcfuser/)
+Beamline Status is currently being enbedded as an `<iframe>` from [here](http://bl831.als.lbl.gov/~mcfuser/).

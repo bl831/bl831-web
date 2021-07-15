@@ -4,6 +4,7 @@ You can use the [editor on GitHub](https://github.com/bl831/bl831-web/edit/main/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+Some basic markdown usage reminders are below, but more detailed [Markdown Documentation](https://www.markdownguide.org) may be useful.
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
