@@ -36,7 +36,7 @@ group: about
 ### Additional features
 
 * Sample temperature adjustable from 100-300K
-* "Cool Hand Luke" Robot accepts all major pin types (Hampton, Yale, SPINE, etc.) and lengths (10-24 mm) and supports "delayed data collection mode" where data collection runs are deferred to the end of the shift. This robot does not work directly with cassettes because hand-mounting of samples in the mini-hutch is faster than any robot.
+* "Cool Hand Luke" Robot accepts all major pin types (Hampton, Yale, SPINE, etc.) and lengths (10-24 mm) and supports fully automatic unattended screening and data collection. This robot does not work directly with pucks or cassettes, but rather we will load the CHL sample chain manually (current capacity is 50 pins). Plans are afoot to develop a puck/cassette unpacking robot that will accept standard unipucks and SSRL-style cassettes and load the CHL sample chain.
 * **In-Situ Tray Goniometer:** Goniometer is fast air-bearing spindle capable of "true" MAD with round-robin inverse beam and wavelength changes
 * All SBS compliant crystallization trays supported. Thin-walled in-situ ready trays such as in-situ-1 highly recommended
 * Ambient temperature data collection supported
