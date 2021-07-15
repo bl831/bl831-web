@@ -15,11 +15,14 @@ Professor Tom Alber [passed away](http://news.berkeley.edu/2014/04/04/berkeley-p
 <img src="http://fraserlab.com/static/img/news/Tom_2003_HighSierras.jpg" alt="Tom Alber in the High Sierras" class="img-responsive">
 
 ## James Holton, PhD
-
+Beamline Scientist
 ## George Meigs
-
+Senior Engineering Associate
 ## Scott Classen, PhD
-
+Beamline Scientist
 ## James Fraser, PhD
-
+Beamline Spokesperson
 ## Robert Stroud, PhD
+Beamline Advisor
+## Kathryn Burnett
+Administrative Assistant

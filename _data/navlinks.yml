@@ -24,6 +24,10 @@
     beamtime:
       name: Beamtime
       link: "/beamline/beamtime"
+    self_service_passwords:
+      name: Self Service Password
+      link: https://bl831.als.lbl.gov/ssp
+      target: _blank
 
 - name: Procedures
   link: "/procedures"
@@ -37,7 +41,7 @@
       name: Data Processing
       link: "/procedures/data_processing/xds"
     remote_procedures:
-      name: Remote Procedures
+      name: Remote
       link: "/procedures/remote_procedures/remote"
     holton_notes:
       name: Notes from James Holton
