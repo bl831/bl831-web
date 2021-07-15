@@ -7,3 +7,5 @@ theme: jekyll-theme-hacker
 title: "BL8.3.1 Web Page"
 description: "We do X-ray crystallography"
 show_downloads: false
+
+google_analytics: G-YCXQRJKM6X
