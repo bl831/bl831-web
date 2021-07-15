@@ -7,7 +7,8 @@ group: faq
 # FAQ
 
 ---
-## General guidelines:
+
+## General guidelines
 
 * Do whatever makes sense to you
 * To minimize training, we are trying to organize the beamline so that following your intuition will have the desired outcome.  If it doesn't I'd like to hear about it.
@@ -88,9 +89,13 @@ stream, but I think in the immediate future you'll probably be happiest with XDS
 ## Any opinions about what to look for when evaluating a beamline?
 
 Oh yes... What you really want to look at when evaluating a beam's performance for MX is four things:
+
 1. flux in photons/s.  This determines how long it takes to do an experiment before the crystal is dead. The problem with flux as a metric, however, is that people cheat, so there are caveats.
+
 2. beam size. should be matched to your crystal size if at all possible.  Most beamlines quote their flux with no aperture at the sample, which is cheating because that means not all of it is hitting your crystal. For example, APS 19-ID quotes 1.3e13 photons/s/mm^2, which means the flux into their focused beam size of 0.02 x 0.1 mm is 2.6e10 photons/s, which is 10x lower than 8.3.1.
-3. divergence is the main advantage of insertion devices over bends. Undulators are natively low-divergence sources, so you don't have to think about it.  With bends (and superbends) you can "cheat" and get more flux by opening up the divergence.  This comes at the expense of spreading out the spots, but if you're careful you can stay below the threshold where divergence affects your data.  At all ALS beamlines the divergence is adjustable, and default settings (1-2 mrad) are such that you will not see any impact on your data unless you have a large cell and move the detector to more than ~300 mm.  For our ribosome users we cut divergence down to 0.5 mrad.  There is proportionally less flux, but you can compensate with 4x longer exposures.  The resulting data quality is the same, just takes longer to collect.  
+
+3. divergence is the main advantage of insertion devices over bends. Undulators are natively low-divergence sources, so you don't have to think about it.  With bends (and superbends) you can "cheat" and get more flux by opening up the divergence.  This comes at the expense of spreading out the spots, but if you're careful you can stay below the threshold where divergence affects your data.  At all ALS beamlines the divergence is adjustable, and default settings (1-2 mrad) are such that you will not see any impact on your data unless you have a large cell and move the detector to more than ~300 mm.  For our ribosome users we cut divergence down to 0.5 mrad.  There is proportionally less flux, but you can compensate with 4x longer exposures.  The resulting data quality is the same, just takes longer to collect.
+
 4. dispersion. another way to "cheat" is to use a multilayer monochromator.  These give orders of magnitude more flux, but at the expense of spreading out and fading high-resolution spots into the background. We have two ML-capable beamlines at ALS (12.3.1 and 8.2.1).  This can be useful for screening, but for high-resolution data collection you want to switch back to the silicon-111 crystals (which can be done in 5-15 minutes).  8.3.1 has a silicon-111 mono.
 
 One final thing to bear in mind is radiation damage.  You can't outrun it.  Well, XFELs can, but not synchrotrons.  Because of this, the number of photons you get onto your detector before the crystal is dead is fixed.  It's about 1e6 scattered photons per cubic micron of crystal.  So, when you're at any beamline the only thing you get to decide is how many images to put those photons on.  We have software that will suggest an optimal solution.  Your choice of beamline affects how long it will take to get those photons.  At 8.3.1 its 5 minutes.  Beyond the beam, the most important things are how well maintained the hardware is, how feature-filled the software is, and how good the user support will be.  I'd like to think 8.3.1 is competitive on the first and leads the world on those last three.
