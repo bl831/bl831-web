@@ -1,20 +1,31 @@
     </div>
     <hr>
     <div id="navbar footer fixed-bottom">
-      <div class="container">
-        <p class="text-muted credit"> This website is open-source and available on <a href="https://github.com/fraser-lab/als831">Github</a>.</p>
+      <div class="container-fluid">
+        <p class="text-muted credit"> This website is open-source and available on <a href="https://github.com/bl831/bl831-web">Github</a>.</p>
+        <p>
+          <img class="float-right" src="/assets/images/DOE-logo.png" height="50px" href="https://science.osti.gov/ber"/>
+          <img class="float-right" src="/assets/images/NIH-logo.png" height="50px" href="https://www.nih.gov"/>
+          <img class="float-right" src="/assets/images/ALS-logo.png" height="80px" href="https://als.lbl.gov"/>
+          <img class="float-right" src="/assets/images/LBNL-logo.png" height="80px" href="https://www.lbl.gov"/>
+        </p>
+        
       </div>
     </div>
 
-     <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
 
+    <!-- Boostrap custom JS stuff -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    
   </body>
 </html>
