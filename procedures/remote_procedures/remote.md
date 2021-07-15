@@ -8,7 +8,8 @@ group: remote_procedures
 
 ---
 
-stuff
+Whether you are collecting manually or using the beamline for fully automatic unattended screening
+you will access the Blu-Ice control software from a linux desktop using a NoMachine NX client.
 
 ## Connect to beamline using NoMachine NX
 
@@ -21,12 +22,13 @@ stuff
 3. Request a login from us.
 4. Connect, and create a new session (for first time you connect) or select existing session if one
    exists.
-5. I'm sure there are more details we could add, but hopefully it's fairly self explanitory. Just 
+5. I'm sure there are more details we could add, but hopefully it's fairly self explanitory. Just
    contact us if you have any problems getting connected or configured a remote desktop session.
 
 ## Load sample list using crystal-server webapp
 
-Blu-Ice requires a list of your crystals losded as an Excel spreadsheet. You can download template
-files and uplaod pre-filled `*.xls` files on the [Crystal Server](https://bl831.als.lbl.gov/crystal-server)
+If you will use the unattended screening features of Blu-Ice you will be required to upload a list
+of your crystals as an Excel spreadsheet. You can download template Excell files and uplaod your
+filled out spreadsheets to the [Crystal Server](https://bl831.als.lbl.gov/crystal-server).
 
 Again, it should be self explanitory. Please contact us if you run into problems.

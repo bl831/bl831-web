@@ -41,7 +41,7 @@
       name: Data Processing
       link: "/procedures/data_processing/xds"
     remote_procedures:
-      name: Remote
+      name: Remote Access
       link: "/procedures/remote_procedures/remote"
     holton_notes:
       name: Notes from James Holton

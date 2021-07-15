@@ -6,9 +6,7 @@ group: home
 
 # ALS Beamline 8.3.1 -- The "TomAlberTron"
 
-<img src="http://www2.lbl.gov/Science-Articles/Archive/assets/images/2004/Feb-17/Holton.jpg" alt="James Holton at 8.3.1" class="img-responsive">
-
-<!-- Welcome to the new homepage of ALS Beamline 8.3.1 -->
+![James Holton standing in front of the 8.3.1 minihutch in the early days](/assets/images/holton-at-beamline.jpg)
 
 [Beamline 8.3.1 at the Advanced Light Source](https://als.lbl.gov/beamlines/8-3-1/) is operated by
 the University of California Office of the President, Multicampus Research Programs and Initiatives
@@ -22,9 +20,7 @@ Energy Sciences.
 Beamline 8.3.1 is directed by James Holton. Additional hardware and software support are provided by
 George Meigs and Scott Classen. Scheduling and access is handled by Kathryn Burnett.
 The Participating Research Team includes UCSF, UC Berkeley, The University of California System,
-and Plexxikon Inc, and is headed by James Fraser and Robert Stroud. 
-
-<!-- # About the TomAlberTron -->
+and Plexxikon Inc, and is headed by James Fraser and Robert Stroud.
 
 ## Detector
 
@@ -64,4 +60,4 @@ throwing away is flux that misses the crystal and ends up as background.
 
 Professor Tom Alber [passed away](http://news.berkeley.edu/2014/04/04/berkeley-professor-thomas-alber-dies-at-60/) in 2014. He spearheaded the construction of Beamline 8.3.1 and ensured that it was a home for innovative structural biology. In 2017, we renamed the beamline the "TomAlberTron" in honor of Tom. We miss him.
 
-<img src="http://fraserlab.com/static/img/news/Tom_2003_HighSierras.jpg" alt="Tom Alber in the High Sierras" class="img-responsive">
+![Tom Alber in the High Sierras](/assets/images/Tom_2003_HighSierras.jpg)
