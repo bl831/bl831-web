@@ -4,7 +4,14 @@ layout: default
 group: data_collection
 ---
 
-# ALS 8.3.1 Room Temperature Cheat Sheet
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/procedures/data_collection/data-collection/">Data Collection</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
+# Generic Data Collection Cheat Sheet
 
 ---
 
@@ -37,7 +44,7 @@ The computers should be pre-configured for data collection, but if not, open a t
     /home/mcfuser/ucsf/fraser/your_directory
    ```
 
-3. Change the cryojet temperature to 273K using UNIX command line (`cryojet.com 273K)` /home
+3. Change the cryojet temperature to 273K using UNIX command line (`cryojet.com 273K`) /home
 4. Move cryojet back using cryojet.com move out
 5. Move crystal pin back to allow extra space for capillary using UNIX command line (pinlength.com 29.5) /home
 6. In the BLU-ICE window where it says "Directory", type in the folder-name that you created in the /data directory. Use BLU-ICE program to collect two test shots at 90o to each other. You should be in tab 0 of BLU-ICE.  [Folder-name = /data/mcfuser/ucsf/fraser/yourfolder/yourfolderfortoday]

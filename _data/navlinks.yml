@@ -14,16 +14,16 @@
   link: "/beamline"
   group: beamline
   dropdown: True
-  subset: 
+  subset:
+    beamtime:
+      name: Get Beamtime
+      link: "/beamline/beamtime"
     schedule:
       name: Schedule
       link: "/beamline/schedule"
     status:
       name: Status
       link: "/beamline/status"
-    beamtime:
-      name: Beamtime
-      link: "/beamline/beamtime"
     self_service_passwords:
       name: Self Service Password
       link: https://bl831.als.lbl.gov/ssp

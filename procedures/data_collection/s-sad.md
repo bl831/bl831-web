@@ -1,10 +1,22 @@
 ---
-title: S-SAD
+title: S-SAD Data Collection
 layout: default
 group: data_collection
 ---
-# S-SAD Notes by James Holton 
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/procedures/data_collection/data-collection/">Data Collection</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
 ---
+
+# S-SAD Notes by James Holton
+
+---
+
 2014:  
                         James Holtons's S-SAD data collection recommendations to user:
 ____________________________________________________________________________________

@@ -4,8 +4,19 @@ layout: default
 group: data_collection
 ---
 
-# BL 8.3.1 Data Collection
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/procedures/data_collection/data-collection/">Data Collection</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
 ---
+
+# BL 8.3.1 Data Collection
+
+---
+
 Some good advice in this article:
 
 http://journals.iucr.org/d/issues/2013/07/00/ba5199/ba5199.pdf

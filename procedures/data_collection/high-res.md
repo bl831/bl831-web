@@ -4,25 +4,57 @@ layout: default
 group: data_collection
 ---
 
-# How to Do: Collecting Very High-Resolution Data
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/procedures/data_collection/data-collection/">Data Collection</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
 ---
-<h1 style="background-image:none;font-weight:normal;margin:0px 0px 0.1em;padding-top:0.5em;padding-bottom:0.17em;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(170,170,170);font-family:sans-serif;line-height:19px;text-align:-webkit-auto"><b style="line-height:1.5em"><font size="4">This page is currently incomplete.</font></b></h1>
-<div style="text-align:-webkit-auto">
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">Jaime, Ho, Mark, and I have done this for specific projects where true atomic resolution (approaching 1 angstom) was the goal, but occasionally someone gets lucky and accidentally obtains a perfect crystal which diffracts beyond the range of the detector at the normal wavelength. This isn't actually a very difficult "problem" to solve - just a few changes to the normal routine are necessary.</p>
-<font face="sans-serif"><span style="line-height:19px"><a name="Screening" style="color:rgb(0,43,184);background-image:none"></a></span></font>
-<h3 style="font-family:sans-serif;line-height:19px;color:black;margin-top:0px;margin-bottom:0.3em;padding-top:0.5em;padding-bottom:0.17em;border-bottom-style:none;font-size:17px;background-image:none"><span style="float:right;margin-left:5px;font-size:13px;font-weight:normal">[<a href="http://ucxray.berkeley.edu/wiki/index.php?title=Collecting_very_high-resolution_data&amp;action=edit&amp;section=1" style="color:rgb(90,54,150);background-image:none" title="Edit section: Screening">edit</a>]</span><span>Screening</span></h3>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">This procedure is what I've found useful in the past; try these steps in the order listed:</p>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">==== Determine maximum resolution ==== Move to the very corner of the image in ADXV and press 'h'. If you can still see distinct spots, the resolution limit is at least this far. If not, move to the midpoint of an edge of the image, press 'h' again, and look for spots. If they don't reach this far, the detector is too far in or the wavelength is too high. Otherwise, your resolution is somewhere in between. Repeat this step each time you change something (unless the detector is tilted).</p>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">You can also try increasing exposure time to see what effect this has on resolution. I find there are diminishing returns from longer exposures - in fact, crystals that go to atomic resolution will usually still diffract well beyond 2 angstroms at 0.1s, the shortest exposure time possible. Remember,&nbsp;<b>high resolution features will be fried first</b>&nbsp;(sulfurs too), so don't get greedy - you may be much better off with 1.2A data @ 2s exposures than 1.1A data @ 10s exposures (especially if you're not actually&nbsp;<i>trying</i>&nbsp;to get high resolution in the first place).</p>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">==== Move the detector in ==== At 8.3.1, the minimum distance is 85mm. You can collect complete data out to approximately 1.2A (? check this) at the default energy of 11111eV (1.116eV); the resolution at the corners of the detector is much higher.</p>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">If the detector is all the way in and spots are still off the edge, either or both of the next two options are required:</p>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">==== Increase the energy ==== Or more appropriately, decrease the wavelength, which according to Bragg's law will reduce the scattering angle of each reflection. I start with around 13000eV, which is far enough to make a significant difference while retaining about 2/3 the maximum flux. I've never gone past 15000eV; the beam is just too weak.</p>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">==== Increase 2theta ==== This is the angle at which the detector is tilted. Except for special cases, this will always be zero for "normal" crystals. Tilting the detector will capture reflectings at larger scattering angles (the maximum scattering angle that can be captured with the Q315 detector horizontal at a distance of 127mm is 61.65 degrees).&nbsp;<b>Move the detector back to 100mm first!</b>&nbsp;Next, click on the "Hutch" tab in Blu-Ice and change the 2theta menu to 20 degrees, then press "Start." Once this is done, go back to the "Collect" tab and take another couple of snapshots. The images will look weird but the processing software will have no problem interpreting them as long as it knows about 2theta (this should be automatic). Now the top edge of the image is much further out. If you don't see spots all the way to the edge, you can lower 2theta or the photon energy.</p>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">These techniques are complementary, and it's not uncommon to need to use both. As the spots get closer and closer together, you're much more likely to get overlaps (depending on symmetry). 2theta can help prevent this, which is why we sometimes use it for non-atomic-resolution data collection. However, with 2theta increased, it may potentially be more difficult to collect complete data (although I don't think I've had this problem yet).</p>
-<p style="margin:0.4em 0px 0.5em"><font face="sans-serif"><span style="line-height:20px">From George: You may have problems with spot separation in the low-to-middle resolution range at close detector distances and/or higher energies. One way to tell is if when you index, it suggests very small oscillations (like around 0.2 or less), the implication is there is only a very small range in which you can collect reliable data because of overlapping spots.</span></font></p>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">For a sub-atomic resolution (~0.8 angstroms) crystal, the parameters could easily be 100mm detector distance, 2theta = 20 degrees, and energy = 15000eV. In the most extreme cases I've seen, even this was not enough to keep spots from spilling over the top edge of the detector. Fortunately, these proteins weren't interesting enough for me to waste time with even higher energies and longer exposure times. You can of course raise 2theta above 20, but this makes me uneasy, and it will complicate your data collection strategy.</p>
-<font face="sans-serif"><span style="line-height:19px"><a name="Data_collection" style="color:rgb(0,43,184);background-image:none"></a></span></font>
-<h3 style="font-family:sans-serif;line-height:19px;color:black;margin-top:0px;margin-bottom:0.3em;padding-top:0.5em;padding-bottom:0.17em;border-bottom-style:none;font-size:17px;background-image:none"><span style="float:right;margin-left:5px;font-size:13px;font-weight:normal">[<a href="http://ucxray.berkeley.edu/wiki/index.php?title=Collecting_very_high-resolution_data&amp;action=edit&amp;section=2" style="color:rgb(90,54,150);background-image:none" title="Edit section: Data collection">edit</a>]</span><span>Data collection</span></h3>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em">==== Indexing ==== Do this the normal way, using two images (90 degrees apart) taken at the appropriate 2theta and wavelength. Hopefully this will not present any problems and will provide a clear strategy. You may have completeness problems if 2theta is high; alternately, you might need oscillations smaller than 1 degree depending on the unit cell size and crystal orientation.</p>
-<p style="font-family:sans-serif;line-height:1.5em;margin:0.4em 0px 0.5em"><b>More here soon.</b></p>
-</div>
+
+# Some Notes On Collecting Very High-Resolution Data
+
+---
+
+Jaime, Ho, Mark, and I have done this for specific projects where true atomic resolution (approaching 1 angstom) was the goal, but occasionally someone gets lucky and accidentally obtains a perfect crystal which diffracts beyond the range of the detector at the normal wavelength. This isn't actually a very difficult "problem" to solve - just a few changes to the normal routine are necessary.
+
+---
+
+## Screening
+
+This procedure is what I've found useful in the past; try these steps in the order listed:
+
+### Determine maximum resolution
+
+Move to the very corner of the image in ADXV and press 'h'. If you can still see distinct spots, the resolution limit is at least this far. If not, move to the midpoint of an edge of the image, press 'h' again, and look for spots. If they don't reach this far, the detector is too far in or the wavelength is too high. Otherwise, your resolution is somewhere in between. Repeat this step each time you change something (unless the detector is tilted).
+
+You can also try increasing exposure time to see what effect this has on resolution. I find there are diminishing returns from longer exposures - in fact, crystals that go to atomic resolution will usually still diffract well beyond 2 angstroms at 0.1s, the shortest exposure time possible. **Remember, high resolution features will be fried first** (sulfurs too), so don't get greedy - you may be much better off with 1.2A data @ 2s exposures than 1.1A data @ 10s exposures (especially if you're not actually *trying* to get high resolution in the first place).
+
+### Move the detector in
+
+At 8.3.1, the minimum distance is 85mm. You can collect complete data out to approximately 1.2A (? check this) at the default energy of 11111eV (1.116eV); the resolution at the corners of the detector is much higher.
+
+If the detector is all the way in and spots are still off the edge, either or both of the next two options are required:
+
+### Increase the energy
+
+Or more appropriately, decrease the wavelength, which according to Bragg's law will reduce the scattering angle of each reflection. I start with around 13000eV, which is far enough to make a significant difference while retaining about 2/3 the maximum flux. I've never gone past 15000eV; the beam is just too weak.
+
+### Increase 2theta
+
+This is the angle at which the detector is tilted. Except for special cases, this will always be zero for "normal" crystals. Tilting the detector will capture reflectings at larger scattering angles (the maximum scattering angle that can be captured with the Q315 detector horizontal at a distance of 127mm is 61.65 degrees). **Move the detector back to 100mm first!** Next, click on the "Hutch" tab in Blu-Ice and change the 2theta menu to 20 degrees, then press "Start." Once this is done, go back to the "Collect" tab and take another couple of snapshots. The images will look weird but the processing software will have no problem interpreting them as long as it knows about 2theta (this should be automatic). Now the top edge of the image is much further out. If you don't see spots all the way to the edge, you can lower 2theta or the photon energy.
+
+These techniques are complementary, and it's not uncommon to need to use both. As the spots get closer and closer together, you're much more likely to get overlaps (depending on symmetry). 2theta can help prevent this, which is why we sometimes use it for non-atomic-resolution data collection. However, with 2theta increased, it may potentially be more difficult to collect complete data (although I don't think I've had this problem yet).
+
+From George: You may have problems with spot separation in the low-to-middle resolution range at close detector distances and/or higher energies. One way to tell is if when you index, it suggests very small oscillations (like around 0.2 or less), the implication is there is only a very small range in which you can collect reliable data because of overlapping spots.
+
+For a sub-atomic resolution (~0.8 angstroms) crystal, the parameters could easily be 100mm detector distance, 2theta = 20 degrees, and energy = 15000eV. In the most extreme cases I've seen, even this was not enough to keep spots from spilling over the top edge of the detector. Fortunately, these proteins weren't interesting enough for me to waste time with even higher energies and longer exposure times. You can of course raise 2theta above 20, but this makes me uneasy, and it will complicate your data collection strategy.
+
+---
+
+## Data collection
+
+==== Indexing ==== Do this the normal way, using two images (90 degrees apart) taken at the appropriate 2theta and wavelength. Hopefully this will not present any problems and will provide a clear strategy. You may have completeness problems if 2theta is high; alternately, you might need oscillations smaller than 1 degree depending on the unit cell size and crystal orientation.</p>
+
+More here soon.

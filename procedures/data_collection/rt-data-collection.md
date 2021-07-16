@@ -4,8 +4,19 @@ layout: default
 group: data_collection
 ---
 
-# How to Do: RT Collection Notes
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/procedures/data_collection/data-collection/">Data Collection</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
 ---
+
+# How to Do: RT Collection Notes
+
+---
+
 <div>
 <p><b>When you are done with your data collection</b></p>
 <ul><li><b>turn cryostream back on (NOTE: This takes at LEAST 30 minutes. Don't screw over the next shift!!!!) - &gt; cryojet.com on</b></li>

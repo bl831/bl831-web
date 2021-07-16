@@ -4,11 +4,9 @@ layout: default
 group: beamline
 ---
 
-# Beamtime Schedule
+# Beamline Schedule
 
 ---
-
-<a class="btn btn-primary" href="https://calendar.google.com/calendar/ical/bl831cal%40gmail.com/public/basic.ics" role="button">Subscribe</a>
 
 <div class="embed-responsive">
 
@@ -16,4 +14,4 @@ group: beamline
 
 </div>
 
-Old School parsed version of current schedule available [here](http://bl831.als.lbl.gov/~mcfuser/schedule/schedule.php)
+Old School parsed version of current schedule available [here](https://bl831.als.lbl.gov/~mcfuser/schedule/schedule.php)

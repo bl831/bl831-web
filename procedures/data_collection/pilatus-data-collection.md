@@ -4,7 +4,17 @@ layout: default
 group: data_collection
 ---
 
-# Pilatus Data Collection
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/procedures/data_collection/data-collection/">Data Collection</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+
+---
+
+# Notes on Pilatus Data Collection
+
 ---
 ***Notes collected by MCT in 2016 following installation of Pilatus at 8.3.1***
 

@@ -4,7 +4,15 @@ layout: default
 group: data_collection
 ---
 
-# Data Collection
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Data Collection</li>
+  </ol>
+</nav>
+
+---
+
+# Making Decisions About Data Collection
 
 ---
 
@@ -14,7 +22,7 @@ Please refer to the flowchart below to give you a rough idea of which data colle
 
 ## Single-wavelength
 
-* [ALS 8.3.1 cheat sheet]({% link procedures/data_collection/als-cheat-sheet.md %})
+* [Data Collection Cheat Sheet]({% link procedures/data_collection/als-cheat-sheet.md %})
 * [ALS 8.3.1 data collection]({% link procedures/data_collection/BL-831-data-collection.md %})
 * [Pilatus data collection]({% link procedures/data_collection/pilatus-data-collection.md %})
 
