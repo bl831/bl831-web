@@ -8,7 +8,7 @@ group: contact
 
 ---
 
-## Primary contacts:
+## Primary contacts
 
 **James Holton**  
 jmholton at lbl.gov  

@@ -33,7 +33,10 @@
   link: "/procedures"
   group: procedures
   dropdown: True
-  subset: 
+  subset:
+    remote_procedures:
+      name: Remote Access
+      link: "/procedures/remote_procedures/remote"
     data_collection:
       name: Data Collection
       link: "/procedures/data_collection/data-collection"
@@ -46,9 +49,7 @@
     data_processing_x2:
       name: Data Processing - Xia2
       link: "/procedures/data_processing/xia2"
-    remote_procedures:
-      name: Remote Access
-      link: "/procedures/remote_procedures/remote"
+
     holton_notes:
       name: Notes from James Holton
       link: "https://bl831.als.lbl.gov/~jamesh/beamline/"

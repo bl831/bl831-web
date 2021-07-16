@@ -4,33 +4,47 @@ layout: default
 group: data_collection
 ---
 
-# ALS 8.3.1 Cheat Sheet
+# ALS 8.3.1 Room Temperature Cheat Sheet
 
 ---
 
-**NOTE: make sure that all data is being written within the “/data” directory and that all data processing is being performed in the “/home” directory.**
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+  <i class="bi bi-info-circle-fill px-2" style="font-size: xx-large; color: blue"></i>
 
-Have one terminal open for data and one open for home.  
+  <div>
+    make sure that all data is being written within the /data directory and that all data processing is being performed in the “/home” directory.
+  </div>
+</div>
+
+Have one terminal open for `/data` and one open for `/home`.  
 
 For other questions: http://bl831.als.lbl.gov/
 
 To open terminal right click the mouse, go to open trerminal
 
-The computers should be pre-configured for data collection, but if not, open a terminal window and type “go” /home
-1. Find fraser in the /data directory. Create a new directory for yourself in        
-    /data/mcfuser/ucsf/fraser/your_directory/your_directory_for_today.
+The computers should be pre-configured for data collection, but if not, open a terminal window and type `go`
 
-2. In the other terminal window find fraser in the /home directory. In this directory make a directory for yourself. Write your future commands from here.
-    /home/mcfuser/ucsf/fraser/your_directory.
+1. Find fraser in the `/data` directory. Create a new directory for yourself in
 
-3. Change the cryojet temperature to 273K using UNIX command line (cryojet.com 273K) /home
+   ```bash
+    /data/mcfuser/ucsf/fraser/your_directory/your_directory_for_today
+   ```
+
+2. In the other terminal window find fraser in the `/home` directory. In this directory make a
+   directory for yourself. Issue your future commands from here.
+
+   ```bash
+    /home/mcfuser/ucsf/fraser/your_directory
+   ```
+
+3. Change the cryojet temperature to 273K using UNIX command line (`cryojet.com 273K)` /home
 4. Move cryojet back using cryojet.com move out
 5. Move crystal pin back to allow extra space for capillary using UNIX command line (pinlength.com 29.5) /home
 6. In the BLU-ICE window where it says "Directory", type in the folder-name that you created in the /data directory. Use BLU-ICE program to collect two test shots at 90o to each other. You should be in tab 0 of BLU-ICE.  [Folder-name = /data/mcfuser/ucsf/fraser/yourfolder/yourfolderfortoday]
 
 **Each time you take a test shot the image will be saved in this folder-name directory. When collecting a data set make sure to create a new directory so that it is separate from the test shots, more on that below.
 
-Prefix is where you can give a specific name like "LK001", but this is unnecessary for test shots. 
+Prefix is where you can give a specific name like "LK001", but this is unnecessary for test shots.  
 
    a.  NOTE: always do single “test shots” in BLU-ICE collection window 0
    b.  NOTE: make sure Aluminum filter is in use, this is in the tab called Hutch. - this is only for room temperature data - you can also achieve similar attenuation by setting beam divergence to 0.3x0.35 (also in the hutch) 
