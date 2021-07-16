@@ -44,8 +44,8 @@ throwing away is flux that misses the crystal and ends up as background.
 
 * ### Remote data collection
 
-  Remote-access at beamline 8.3.1 is supported, but we are accepting remote users. We support all
-  puck, cassette and pin types, including canes.
+  [Remote-access](/procedures/remote_procedures/remote) at beamline 8.3.1 is supported, and we are accepting remote users. We support all
+  puck, cassette, and pin types, including canes.
 
 * ### Automated data processing
 

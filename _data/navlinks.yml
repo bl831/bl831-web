@@ -37,9 +37,15 @@
     data_collection:
       name: Data Collection
       link: "/procedures/data_collection/data-collection"
-    data_processing:
-      name: Data Processing
+    data_processing_ru:
+      name: Data Processing - xds_rollup.com
       link: "/procedures/data_processing/xds"
+    data_processing_ap:
+      name: Data Processing - autoPROC
+      link: "/procedures/data_processing/autoproc"
+    data_processing_x2:
+      name: Data Processing - Xia2
+      link: "/procedures/data_processing/xia2"
     remote_procedures:
       name: Remote Access
       link: "/procedures/remote_procedures/remote"
