@@ -1,64 +1,53 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-    <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <!-- GitHub Pages CSS -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
   </head>
 
   <body>
 
-    <!-- Static navbar -->
-      <div class="navbar navbar-expand-lg fixed-top navbar-dark" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
         <a class="navbar-brand" href="{{site.url}}">{{site.name}}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarCollapse" aria-controls="NavbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-  
-          <div  class="collapse navbar-collapse" id="NavbarCollapse">
-            <ul class="navbar-nav mr-auto mt-1 mt-lg-0">
-              {% for link in site.data.navlinks %}
-                {% if link.dropdown %}
-                  <li class="nav-item dropdown" id="navbar_{{link.name}}">
-                    <a class="nav-link dropdown-toggle" href="{{site.url}}{{link.link}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {{link.name}}
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      {% for item in link.subset %}
-                        <a class="dropdown-item" href="{{item[1].link}}" target="{{item[1].target}}">
-                          {{item[1].name}}
-                        </a>
-                      {% endfor %} 
-                    </div>
-                  </li>
-                {% else %}
-                  <li class="nav-item" id="navbar_{{link.name}}"><a class="nav-link" target="{{link.target}}" href="{{site.url}}{{link.link}}" alt="{{link.name}}"> {{link.name}}</a></li>
-                {% endif %}
+            {% for link in site.data.navlinks %}
+              {% if link.dropdown %}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="{{ site.url }}{{ link.link }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    {{ link.name }}
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                    {% for item in link.subset %}
+                    <li><a class="dropdown-item" href="{{ item[1].link }}">{{ item[1].name }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% else %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ site.url }}{{ link.link }}">{{ link.name }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
 
-                {% if page.group == link.group %}
-                  <script type="text/javascript"> 
-                    $("#navbar_{{link.name}}").addClass('active');
-                  </script>
-                {% endif %}
-              {% endfor %}
-              <!-- <li><a href="https://sites.google.com/a/fraserlab.com/ucsf-private/" alt="Lab Private Area">private</a></li> -->
-            </ul>
-          </div><!--/.nav-collapse -->
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-
-    <div class="container">
- 
+    </nav>

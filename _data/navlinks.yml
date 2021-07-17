@@ -49,7 +49,6 @@
     data_processing_x2:
       name: Data Processing - Xia2
       link: "/procedures/data_processing/xia2"
-
     holton_notes:
       name: Notes from James Holton
       link: "https://bl831.als.lbl.gov/~jamesh/beamline/"
