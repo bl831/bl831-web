@@ -74,7 +74,7 @@
       link: "http://bl831.als.lbl.gov/~jamesh/mlfsom/"
 
 - name: Miscellaneous
-  link: ""
+  group: miscellaneous
   dropdown: True
   subset:
     example_data:
