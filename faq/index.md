@@ -12,7 +12,7 @@ group: faq
 
 * Do whatever makes sense to you
 * To minimize training, we are trying to organize the beamline so that following your intuition will have the desired outcome.  If it doesn't I'd like to hear about it.
-* Do not delete your data. That is my job. We do systemwide archives on Mondays so that you will always have a copy of your data at the beamline. We also do statistics on data collection to try and improve the user-friendliness of the beamline.
+* Do not delete your data. That is our job. We do systemwide archives on Mondays so that you will always have a copy of your data at the beamline. We also do statistics on data collection to try and improve the user-friendliness of the beamline.
 * Do not compress your data. Compressed files still take up space and are impossible to process. They are not good for anything. If you want to compress files for transfer, have a look at moving data around for better ways to do this.
 * Do your processing in `/home`, not `/data`. Processing onto the data disk slows down data collection and takes up a lot of space. The `/data` disk is optimized for large files. Lots of small files can fill up `/data` at only ~75% of its full capacity!
 

@@ -22,6 +22,8 @@ will be actually run on `octamus1` ... I think.
 
 [XDS Documentation](https://xds.mr.mpg.de/html_doc/XDS.html)
 
+[XDS Benchmarks](https://bl831.als.lbl.gov/~jamesh/benchmarks/index.html#XDS)
+
 ### CCP4
 
 Is available for [download](https://www.ccp4.ac.uk/download) from [CCP4](https://www.ccp4.ac.uk)

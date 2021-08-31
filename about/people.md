@@ -18,9 +18,14 @@ Professor Tom Alber [passed away](http://news.berkeley.edu/2014/04/04/berkeley-p
 
 Beamline Scientist
 
+[web](https://bl831.als.lbl.gov/~jamesh)
+
+[movies](https://bl831.als.lbl.gov/~jamesh/movies/)
+
 ## George Meigs
 
 Senior Engineering Associate
+[web](https://bl831.als.lbl.gov/~gmeigs/)
 
 ## Scott Classen, PhD
 
@@ -29,10 +34,12 @@ Beamline Scientist
 ## James Fraser, PhD
 
 Beamline Spokesperson
+[web](https://fraserlab.com)
 
 ## Robert Stroud, PhD
 
 Beamline Advisor
+[web](https://msg.ucsf.edu/stroud-lab)
 
 ## Kathryn Burnett
 

@@ -61,6 +61,20 @@
 - name: Software
   link: "/software"
   group: software
+  dropdown: True
+  subset:
+    sw_external:
+      name: Processing Software
+      link: "/software/sw_ext"
+    sw_nanobragg:
+      name: nanoBragg
+      link: "https://bl831.als.lbl.gov/~jamesh/nanoBragg/"
+    sw_nearbragg:
+      name: nearBragg
+      link: "https://bl831.als.lbl.gov/~jamesh/nearBragg/"
+    sw_mlfsom:
+      name: MLFSOM
+      link: "http://bl831.als.lbl.gov/~jamesh/mlfsom/"
 
 - name: FAQ
   link: "/faq"
