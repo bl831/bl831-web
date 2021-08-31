@@ -11,7 +11,6 @@
       link: "/about/people"
 
 - name: Beamline
-  link: "/beamline"
   group: beamline
   dropdown: True
   subset:
@@ -30,7 +29,6 @@
       target: _blank
 
 - name: Procedures
-  link: "/procedures"
   group: procedures
   dropdown: True
   subset:
@@ -59,7 +57,6 @@
       target: _blank
 
 - name: Software
-  link: "/software"
   group: software
   dropdown: True
   subset:
@@ -75,6 +72,14 @@
     sw_mlfsom:
       name: MLFSOM
       link: "http://bl831.als.lbl.gov/~jamesh/mlfsom/"
+
+- name: Miscellaneous
+  link: ""
+  dropdown: True
+  subset:
+    example_data:
+      name: Example Data Sets
+      link: "https://bl831.als.lbl.gov/example_data_sets/"
 
 - name: FAQ
   link: "/faq"
