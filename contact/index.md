@@ -11,17 +11,13 @@ group: contact
 ## Primary contacts
 
 **James Holton**  
-jmholton at lbl.gov  
-510-928-xxxx  
+[email](mailto:jmholton@lbl.gov)    
 
 **George Meigs**  
-gmeigs at lbl.gov  
-510-520-xxxx  
+[email](mailto:gmeigs@lbl.gov)   
 
 **Scott Classen**  
-[email](mailto:sclassen@lbl.gov)  
-510-206-xxxx  
+[email](mailto:sclassen@lbl.gov)    
 
 **Kathryn Burnett**  
-kburnett at lbl.gov  
-510-495-xxxx  
+[email](mailto:kburnett@lbl.gov)   
