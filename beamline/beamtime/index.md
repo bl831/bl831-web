@@ -44,7 +44,7 @@ Email [Kathryn](mailto:kburnett@lbl.gov) and cc [George](mailto:gmeigs@lbl.gov) 
 
 3. Make sure you have an active badge.
 
-If your badge is not active, we recommend starting the [process](https://als.lbl.gov/onsite-access/) at least 1 month before your proposed beamtime.
+- If your badge is not active, we recommend starting the [process](https://als.lbl.gov/onsite-access/) at least 1 month before your proposed beamtime.
 
 Consult the ALS [User Guide](https://als.lbl.gov/users/user-guide/) for a more conprehensive information.
 
