@@ -12,9 +12,9 @@ group: beamline
 
 - ### **General User Proposal (GUP)**
 
-  - ### Submitting a General User Proposal is the most common way for users to access a beamline. The process accommodates users who want to establish an ongoing program of work at the ALS or who want to carry out a single experiment requiring more beamtime than is available through the RAPIDD system. Proposals may be submitted every six months and can remain active for up to two years.
+  - Submitting a General User Proposal is the most common way for users to access a beamline. The process accommodates users who want to establish an ongoing program of work at the ALS or who want to carry out a single experiment requiring more beamtime than is available through the RAPIDD system. Proposals may be submitted every six months and can remain active for up to two years.
 
-  - ### Log in to [ALSHub](https://alshub.als.lbl.gov/) to submit a General User Proposal (GUP).
+  - Log in to [ALSHub](https://alshub.als.lbl.gov/) to submit a General User Proposal (GUP).
 
 - ### **RAPIDD Proposal**
 
