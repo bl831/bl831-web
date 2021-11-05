@@ -10,13 +10,13 @@ group: beamline
 
 ## **Step 1 : Submit one of these two types of proposals** 
 
-* ### **General User Proposal (GUP)**
+### 1. **General User Proposal (GUP)**
 
   - Submitting a General User Proposal is the most common way for users to access a beamline. The process accommodates users who want to establish an ongoing program of work at the ALS or who want to carry out a single experiment requiring more beamtime than is available through the RAPIDD system. Proposals may be submitted every six months and can remain active for up to two years.
 
   - Log in to [ALSHub](https://alshub.als.lbl.gov/) to submit a General User Proposal (GUP).
 
-- ### **RAPIDD Proposal**
+### 2. **RAPIDD Proposal**
 
   - The RAPIDD proposal process accommodates users requiring limited but rapid access to ALS beamtime. It includes rapid access for general science and structural biology users, industry users, and those wishing to be considered for director’s discretionary beamtime. **Proposals may be submitted at any time**.
 
