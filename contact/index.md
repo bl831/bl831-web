@@ -19,7 +19,7 @@ gmeigs at lbl.gov
 510-520-xxxx  
 
 **Scott Classen**  
-[email] (mailto:sclassen@lbl.gov)  
+[email](mailto:sclassen@lbl.gov)  
 510-206-xxxx  
 
 **Kathryn Burnett**  
