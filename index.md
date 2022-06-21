@@ -11,7 +11,7 @@ group: home
 [Beamline 8.3.1 at the Advanced Light Source](https://als.lbl.gov/beamlines/8-3-1/) is operated by
 the University of California San Francisco with the support of generous grants from
 the National Institutes of Health (R01 GM124149 for technology development and P30 GM124169
-for deployment and user support),
+for dissemination and user support), Relay Therapeutics Inc.,
 and the Integrated Diffraction Analysis Technologies (IDAT) program of the US
 Department of Energy Office of Biological and Environmental Research. The Advanced Light Source
 (Berkeley, CA) is a national user facility operated by Lawrence Berkeley National Laboratory on
