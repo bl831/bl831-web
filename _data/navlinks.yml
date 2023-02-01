@@ -23,6 +23,9 @@
     status:
       name: Status
       link: "/beamline/status"
+    pubs:
+      name: Publications
+      link: "/beamline/publications"
     self_service_passwords:
       name: Self Service Password
       link: https://bl831.als.lbl.gov/ssp
