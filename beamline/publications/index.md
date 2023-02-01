@@ -13,16 +13,4 @@ group: beamline
 
 
 1. thing one
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
-2. thing 2
+2. adding more pubs
