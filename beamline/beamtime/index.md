@@ -26,7 +26,7 @@ Log in to [ALSHub](https://alshub.als.lbl.gov/) to submit a RAPIDD Proposal.
 
 ## **Step 2 : Request beamtime from 8.3.1 staff**
 
-Go to the [8.3.1 calendar](https://bl831.als.lbl.gov/~mcfuser/schedule/schedule.php) to find available shifts. The orange "COVID19/PRT/GU" shifts indicate availability.
+Go to the [8.3.1 calendar](https://bl831.als.lbl.gov/~mcfuser/schedule/schedule.php) to find available shifts. The orange "Available" shifts indicate availability.
 
 Email [Kathryn](mailto:kburnett@lbl.gov) and cc [George](mailto:gmeigs@lbl.gov) to request the shift you want. If possible, give us a couple of options. First choice, second choice, etc
 
