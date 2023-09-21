@@ -15,11 +15,11 @@ software from a linux desktop using a NoMachine NX client.
 ## Connect to beamline using NoMachine NX
 
 1. Make sure you have the latest version of NoMachine's
-   [NX Client](https://www.nomachine.com/download)  
+   [NX Client](https://www.nomachine.com/download)
 
 2. Configure your connection profile thusly:
    Set `Name` to something you will recognize (BL831 in this example), and set the `Host` to
-   bl831.als.lbl.gov `Port` to 4000, and `Protocol` to NX. <img src="/assets/images/nx_setup_1.png" class= "img-fluid rounded-3 py-3" alt="Image of NX Connection Profile 1" >
+   gateway.bl831.als.lbl.gov `Port` to 4000, and `Protocol` to NX. <img src="/assets/images/nx_setup_1.png" class= "img-fluid rounded-3 py-3" alt="Image of NX Connection Profile 1" >
 
 3. Check the `Use password authentication` option. The rest of the setting can probably be left as-is. <img src="/assets/images/nx_setup_2.png" class= "img-fluid rounded-3 py-3" alt="Image of NX Connection Profile 2" >
 
