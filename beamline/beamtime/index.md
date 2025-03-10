@@ -56,11 +56,14 @@ You do not need to have an active badge to collect remotely.
 Coordinate with [George](mailto:gmeigs@lbl.gov) about shipping or dropping off your dewar. You will also need to give him your crystal information. George will set up your crystals for remote collection.
 
 Shipping address:
+
 Lawrence Berkeley National Lab
+
 Attention: George Meigs / BL 8.3.1
+
 1 Cyclotron Rd
-Berkeley, CA
-94720
+
+Berkeley, CA    94720
 
 Please follow our [remote collection procedures](https://tomalbertron.als.lbl.gov/procedures/remote_procedures/remote/).
 
