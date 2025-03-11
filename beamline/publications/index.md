@@ -8,6 +8,43 @@ group: beamline
 
 ---
 
+2024 Publications
+
+1.	Ali, B.A., R.M. Judy, S. Chowdhury, N.K. Jacobsen, D.T. Castanzo, K.L. Carr, C.D. Richardson, G.C. Lander, A. Martin, and B.M. Gardner, "The N1 domain of the peroxisomal AAA-ATPase Pex6 is required for Pex15 binding and proper assembly with Pex1," Journal of Biological Chemistry 300(1), 105504 (2024). (doi:10.1016/j.jbc.2023.105504) 8.3.1
+2.	Beernink, P.T., C. Di Carluccio, R. Marchetti, L. Cerofolini, S. Carillo, A. Cangiano, N. Cowieson, J. Bones, A. Molinaro, L. Paduano, M. Fragai, B.P. Beernink, S. Gulati, J. Shaughnessy, P.A. Rice, S. Ram, and A. Silipo, "Gonococcal Mimitope Vaccine Candidate Forms a Beta-Hairpin Turn and Binds Hydrophobically to a Therapeutic Monoclonal Antibody," JACS Au 4(7), 2617-2629 (2024). (doi:10.1021/jacsau.4c00359) 8.3.1
+
+3.	Bragagnolo, N., and G.F. Audette, "The 1.3?Å resolution structure of the truncated group Ia type IV pilin from Pseudomonas aeruginosa strain P1," Acta Crystallographica, Section D: Structural Biology 80(12), 834-849 (2024). (doi:10.1107/S205979832401132X) 8.3.1
+
+4.	Brosey, C.A., T.M. Link, R. Shen, D. Moiani, K. Burnett, G.L. Hura, D.E. Jones, and J.A. Tainer, "Chemical screening by time-resolved X-ray scattering to discover allosteric probes," Nature Chemical Biology 20(9), 1199-1209 (2024). (doi:10.1038/s41589-024-01609-1) 8.3.1,12.3.1
+
+5.	Goldberg, K.A., M.P. Kota, G.D. Cutler, and J.M. Holton, "Specification of monochromator crystals for diffraction-limited x-ray optical performance," Proceedings of SPIE 13150, 131500A (2024). [Proceedings of Advances in X-Ray/EUV Optics and Components XIX, (San Diego, CA, 2024)]. (doi:10.1117/12.3028642) 8.3.1,Instrumentation
+
+6.	Hooks, G.M., J.C. Ayala, C.L. Holley, V. Dhulipala, G.A. Beggs, J.R. Perfect, M.A. Schumacher, W.M. Shafer, and R.G. Brennan, "Hormonal steroids induce multidrug resistance and stress response genes in Neisseria gonorrhoeae by binding to MtrR," Nature Communications 15(1), 1153 (2024). (doi:10.1038/s41467-024-45195-1) 5.0.2,8.3.1
+
+7.	Lu, L., X. Gou, S.K. Tan, S.I. Mann, H. Yang, X. Zhong, D. Gazgalis, J. Valdiviezo, H. Jo, Y. Wu, M.E. Diolaiti, A. Ashworth, N. Polizzi, and W. DeGrado, "De novo design of drug-binding proteins with predictable binding energy and specificity," Science 384(6691), 106-112 (2024). (doi:10.1126/science.adl5364) 8.3.1
+
+8.	Nadel, C.M., S. Pokhrel, K. Wucherer, A. Oehler, A.C. Thwin, K. Basu, M. Callahan, D.R. Southworth, D.A. Mordes, C. Craik, and J.E. Gestwicki, "Phosphorylation of tau at a single residue inhibits binding to the E3 ubiquitin ligase, CHIP," Nature Communications 15(1), 7972 (2024). (doi:10.1038/s41467-024-52075-1) 8.3.1
+
+9.	Parkins, A., A.V. Pilien, A.M. Wolff, C. Argueta, J. Vargas, S. Sadeghi, A.H. Franz, M.C. Thompson, and G. Pantouris, "The C-terminal Region of D-DT Regulates Molecular Recognition for Protein-Ligand Complexes," Journal of Medicinal Chemistry 67(9), 7359-7372 (2024). (doi:10.1021/acs.jmedchem.4c00177) 8.3.1
+
+10.	Parkins, A., "Structural and Functional Studies of the Human Members of the Macrophage Migration Inhibitory Factor Family," Doctoral Dissertation, University of the Pacific, Stockton, CA, 2024, advisor G. Pantouris. 8.2.1,8.3.1
+11.	Rakotoharisoa, R.V., B. Seifinoferest, N. Zarifi, J.M. Miller, J. Rodriguez, M.C. Thompson, and R.A. Chica, "Design of Efficient Artificial Enzymes Using Crystallographically Enhanced Conformational Sampling," Journal of the American Chemical Society 146(14), 10001-10013 (2024). (doi:10.1021/jacs.4c00677) 8.3.1
+
+
+12.	Schönherr, H., P. Ayaz, A.M. Taylor, J.B. Casaletto, B.B. Touré, D.T. Moustakas, B.M. Hudson, R. Valverde, S. Zhao, P.J. O’Hearn, L. Foster, D.A. Sharon, S. Garfinkle, F. Giordanetto, A. Lescarbeau, R. Kurukulasuriya, N. Gerami-Moayed, D. Maglic, K. Bruderek, G. Naik, H. Gunaydin, M.M. Mader, A.A. Boezio, T.H. McLean, R. Chen, Y. Wang, D.E. Shaw, J. Watters, and D.A. Bergstrom, "Discovery of lirafugratinib (RLY-4008), a highly selective irreversible small-molecule inhibitor of FGFR2," Proceedings of the National Academy of Sciences of the United States of America 121(6), e2317756121 (2024). (doi:10.1073/pnas.2317756121) 8.3.1
+
+13.	Shao, L., D. Hu, S. Zheng, T.K. Trinh, W. Zhou, H. Wang, Y. Zong, C. Li, and C.-L. Chen, "Hierarchical Self-Assembly of Multidimensional Functional Materials from Sequence-Defined Peptoids," Angewandte Chemie International Edition 63(24), e202403263 (2024). (doi:10.1002/anie.202403263) 8.3.1
+
+14.	Song, Y., X. Cai, M. Wang, D. Du, Y. Lin, and C.-L. Chen, "Assembly of highly efficient aqueous light-harvesting system from sequence-defined peptoids for cytosolic microRNA detection," Nano Research 17, 788-796 (2024). (doi:10.1007/s12274-023-6008-0) 8.3.1
+
+15.	Velagapudi, U.K., E. Rouleau-Turcotte, R. Billur, X. Shao, M. Patil, B.E. Black, J. Pascal, and T.T. Talele, "Novel modifications of PARP inhibitor veliparib increase PARP1 binding to DNA breaks," Biochemical Journal 481(6), 437-460 (2024). (doi:10.1042/BCJ20230406) 8.3.1
+
+16.	Weaver, J., G.B. Craven, L. Tram, H. Chen, and J. Taunton, "Aminomethyl Salicylaldehydes Lock onto a Surface Lysine by Forming an Extended Intramolecular Hydrogen Bond Network," Journal of the American Chemical Society 146(35), 24233-24237 (2024). (doi:10.1021/jacs.4c04314) 8.3.1
+
+17.	Zheng, R., M. Zhao, J.S. Du, T.R. Sudarshan, Y. Zhou, A.K. Paravastu, J.J. De Yoreo, A.L. Ferguson, and C.-L. Chen, "Assembly of short amphiphilic peptoids into nanohelices with controllable supramolecular chirality," Nature Communications 15(1), 3264 (2024). (doi:10.1038/s41467-024-46839-y) 8.3.1
+
+
+
 2022 Publications
 
 
