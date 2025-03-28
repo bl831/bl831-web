@@ -16,7 +16,7 @@ group: contact
 **George Meigs**  
 [email](mailto:gmeigs@lbl.gov)   
 
-**Scott Classen**  
+**Scott Classen.**  
 [email](mailto:sclassen@lbl.gov)    
 
 **Kathryn Burnett**  
