@@ -22,7 +22,7 @@ Beamline Scientist
 
 [movies](https://bl831.als.lbl.gov/~jamesh/movies/)
 
-## George Meigs
+## Mehagan Hopkins
 
 Senior Engineering Associate
 [web](https://bl831.als.lbl.gov/~gmeigs/)
