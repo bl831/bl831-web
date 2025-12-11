@@ -13,10 +13,10 @@ group: contact
 **James Holton**  
 [email](mailto:jmholton@lbl.gov)    
 
-**Mehagan**  
+**Mehagan Hopkins**  
 [email](mailto:MHopkins@lbl.gov)   
 
-**Scott Classen.**  
+**Scott Classen**  
 [email](mailto:sclassen@lbl.gov)    
 
 **Kathryn Burnett**  
