@@ -24,7 +24,7 @@ Beamline Scientist
 
 ## Mehagan Hopkins
 
-Senior Engineering Associate
+Beamline Engineer
 [web](https://bl831.als.lbl.gov/~gmeigs/)
 
 ## Scott Classen, PhD
@@ -52,3 +52,7 @@ Administrative Assistant
 ## Jane Tanamachi
 
 Program Manager & Administrative Assistant
+
+## George Meigs
+
+Beamline Engineer
