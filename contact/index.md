@@ -13,8 +13,8 @@ group: contact
 **James Holton**  
 [email](mailto:jmholton@lbl.gov)    
 
-**George Meigs**  
-[email](mailto:gmeigs@lbl.gov)   
+**Mehagan**  
+[email](mailto:MHopkins@lbl.gov)   
 
 **Scott Classen.**  
 [email](mailto:sclassen@lbl.gov)    
