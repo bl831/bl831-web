@@ -29,7 +29,7 @@ Log in to [ALSHub](https://alshub.als.lbl.gov/) to submit a RAPIDD Proposal.
 Go to the [8.3.1 calendar](https://calendar.google.com/calendar/u/0/embed?src=bl831cal@gmail.com&ctz=America/Los_Angeles)
 to find available shifts. 
 
-Email [Kathryn](mailto:kburnett@lbl.gov) and cc [George](mailto:gmeigs@lbl.gov) to request the shift you want. If possible, give us a couple of options. First choice, second choice, etc
+Email [Kathryn](mailto:kburnett@lbl.gov) and cc [Mehagan](mailto:MHopkins@lbl.gov) to request the shift you want. If possible, give us a couple of options. First choice, second choice, etc
 
 ---
 
