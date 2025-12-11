@@ -53,7 +53,7 @@ Consult the ALS [User Guide](https://als.lbl.gov/users/user-guide/) for a more c
 
 You do not need to have an active badge to collect remotely.
 
-Coordinate with [George](mailto:gmeigs@lbl.gov) about shipping or dropping off your dewar. You will also need to give him your crystal information. George will set up your crystals for remote collection.
+Coordinate with [Mehagan](mailto:MHopkins@lbl.gov) about shipping or dropping off your dewar. You will also need to give him your crystal information. Mehagan will set up your crystals for remote collection.
 
 Shipping address:
 
