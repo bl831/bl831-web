@@ -39,7 +39,7 @@ Email [Kathryn](mailto:kburnett@lbl.gov) and cc [George](mailto:gmeigs@lbl.gov) 
 
 ## **Do you want to collect in person?**
 
-1. Inform [Kathryn](mailto:kburnett@lbl.gov) and [George](mailto:GMeigs@lbl.gov) that you would like to collect in person.
+1. Inform [Kathryn](mailto:kburnett@lbl.gov) and [Mehagan](mailto:MHopkins@lbl.gov) that you would like to collect in person.
 
 2. Update your arrival time in your [ALSHub account](https://alshub.als.lbl.gov/). This will activate the on-site access process and send a message to the ALS User office. You should receive notification about next steps. Only the ALS user office has access to this information. We are not able to access that information so can't tell you exactly what you need to do.
 
@@ -59,7 +59,7 @@ Shipping address:
 
 Lawrence Berkeley National Lab
 
-Attention: George Meigs / BL 8.3.1
+Attention: Mehagan Hopkins / BL 8.3.1
 
 1 Cyclotron Rd
 
@@ -69,4 +69,4 @@ Please follow our [remote collection procedures](https://tomalbertron.als.lbl.go
 
 ## **Do you want to collect in situ? or some other weird way?**
 
-Contact [George](mailto:GMeigs@lbl.gov), [James](mailto:JMHolton@lbl.gov), and [Scott](mailto:sclassen@lbl.gov).
+Contact [Mehagan](mailto:MHopkins@lbl.gov), [James](mailto:JMHolton@lbl.gov), and [Scott](mailto:sclassen@lbl.gov).
